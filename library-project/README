@@ -1,0 +1,46 @@
+Prerequisites
+
+Make sure the following are installed on your system:
+    Node.js (v18 or later)
+    MySQL Server (local or remote)
+    npm (Node package manager)
+
+
+
+DB SET UP
+    Step 1: Log in to your MySQL client and run the below command:
+        CREATE DATABASE libraryDB;
+    Step 2: Keep your DB crendetials in the .env file
+
+Backend Setup
+    Step 1: Open a new terminal and run below command
+        cd library-project/backend
+    Step 2: next run the belwo command
+        npm install
+    Step 3: Run the below command to start the backend
+        npm start
+
+Run the library dashbaord:
+    Step 1: open a new terminal and run below command 
+        cd library
+
+    Step 2: next run the below command 
+        npm install
+
+    Step 3: next run the below command 
+        npm start
+
+
+Run the User Dashboard
+
+    Step 1: open a new terminal and run below command 
+        cd user
+
+    Step 2: next run the below command 
+        npm install
+
+    Step 3: next run the below command 
+        npm start
+
+
+
